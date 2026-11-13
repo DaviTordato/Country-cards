@@ -1,0 +1,277 @@
+/* Global */
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Share Tech Mono", monospace;
+
+}
+
+.Description li ol:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+.Tittles:hover {
+    transform: scale(1.2);
+    transition: 300ms;
+}
+
+img {
+    margin: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: #000000 solid;
+}
+
+body {
+    background-image: -webkit-image-set(url(https://i.ytimg.com/vi/RQ_lf3LwURE/maxresdefault.jpg) 0.7x);
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+body h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    text-shadow: #000000 5px 5px 50px;
+    color: rgb(2, 2, 2);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 21%;
+}
+
+header {
+    background-color: darkslategray;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    border-bottom: #000000 solid 5px;
+}
+
+#logo {
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(55, 0, 255);
+}
+
+#logo h4 {
+    text-shadow: #0000ff 0px 0px 50px;
+    -webkit-text-stroke: rgb(0, 170, 255) 0.3px;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+#Sublogo {
+    font-size: 20px;
+    margin-left: 10px;
+    color: aqua;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav div {
+
+    font-size: 40px;
+    padding: 20px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: rgb(255, 143, 73);
+    -webkit-text-stroke: #000000 0.3px;
+    -webkit-text-stroke-width: 0.7px;
+
+}
+
+/* First card */
+
+.Card {
+    width: 200px;
+    height: 350px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px #000000 solid;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNoUuuYyVQesDKGfH5RFEIS5OSiq763js9NBokZ3j8kQDzbqoNwl-yAxE&s=10);
+    background-size: 350%;
+    background-repeat: no-repeat;
+}
+
+#raridade1 {
+    -webkit-text-stroke: rgb(166, 255, 0) 0.3px;
+    -webkit-text-stroke-width: 0.7px;
+
+}
+
+#title {
+    background-color: klab(62.632% -0.0898 -0.066);
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px #000000 solid;
+    margin-bottom: 25px;
+}
+
+.Card li ol {
+    margin: 5px;
+    font-size: 10px;
+    text-align: justify;
+    background-color: oklab(62.632% -0.0898 -0.066);
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #000000 solid;
+    list-style: none;
+}
+
+.Card li {
+    list-style: none;
+}
+
+#Main1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.Card:hover {
+    transition: ease-out 100ms;
+    transform: scale(1.4) rotate(-2deg);
+    box-shadow:
+        0px 0px 500px rgb(255, 255, 255),
+        0px 0px 1000px rgb(43, 255, 0);
+}
+
+.Card2:hover {
+    transition: ease-out 100ms;
+    transform: scale(1.4);
+    box-shadow: 0px 0px 1000px rgb(255, 0, 0);
+}
+
+.Card3:hover {
+    transition: ease-out 100ms;
+    transform: scale(1.4) rotate(2deg);
+    box-shadow: 0px 0px 1000px rgb(255, 191, 0);
+}
+
+
+/* Secound card */
+
+.Card2 {
+    width: 200px;
+    height: 350px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px #000000 solid;
+    background-image: url(https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/unesco-russia-01.jpg?w=1900&h=1267);
+    background-size: 300%;
+    background-repeat: no-repeat;
+}
+
+#raridade2 {
+    -webkit-text-stroke: rgb(255, 0, 60) 0.3px;
+    -webkit-text-stroke-width: 0.7px;
+
+}
+
+#title2 {
+    background-color: oklab(32.702999999999996% 0.11712 0.06552);
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px hwb(0 0% 100%) solid;
+    margin-bottom: 25px;
+}
+
+.Card2 li ol {
+    margin: 5px;
+    font-size: 10px;
+    text-align: justify;
+    background-color: oklab(28.359% 0.05191 -0.15328);
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #000000 solid;
+    list-style: none;
+}
+
+.Card2 li {
+    list-style: none;
+}
+
+#Main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+/* thrid card */
+
+.Card3 {
+    width: 200px;
+    height: 350px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px #000000 solid;
+    background-image: url(https://pipolltravel.com.br/wp-content/uploads/2023/03/fuji-mountain.webp);
+    background-size: 350%;
+    background-repeat: no-repeat;
+}
+
+#raridade3 {
+    -webkit-text-stroke: rgb(255, 204, 0) 0.2px;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+#title3 {
+    background-color: #bc0068;
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px hwb(0 0% 100%) solid;
+    margin-bottom: 25px;
+}
+
+.Card3 li ol {
+    margin: 5px;
+    font-size: 10px;
+    text-align: justify;
+    background-color: #bc0068;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #000000 solid;
+    list-style: none;
+}
+
+.Card3 li {
+    list-style: none;
+}
+
+#Main3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
